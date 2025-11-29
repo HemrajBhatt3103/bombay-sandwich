@@ -211,15 +211,14 @@ export default function Home() {
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-8">
             <Badge className="mb-4 bg-fresh-green/90 text-white px-4 py-2 text-sm font-bold shadow-lg shadow-green-900/50 border-green-400">
-              🌶️ Authentic Mumbai Street Food
+              🌶️ Authentic Street Food
             </Badge>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-sm">
             Bombay Sandwich
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Experience the vibrant flavors of Mumbai's streets with our premium grilled sandwiches,
-            bursting with authentic spices and fresh ingredients.
+            Experience the vibrant flavors of authentic and premium grilled sandwiches, brusting out the original spices  and fresh ingredients 
           </p>
 
           
