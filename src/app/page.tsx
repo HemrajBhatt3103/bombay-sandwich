@@ -204,7 +204,38 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-red-800">
+      
+      <section
+  id="home"
+  className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-center"
+  style={{ backgroundImage: "url('/hero_bg.jpg')" }}
+>
+  <div className="absolute inset-0 bg-gradient-to-br from-chili/50 via-saffron/30 to-gray-900 z-10 opacity-80"></div>
+  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-orange-500/20 to-transparent opacity-50"></div>
+
+  <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <div className="mb-8">
+      <Image
+        src="/logo.jpeg"
+        alt="Logo"
+        width={100}
+        height={100}
+        className="w-24 h-24 mx-auto rounded-lg"
+      />
+    </div>
+
+    <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-sm">
+      BITES BOMBAY SANDWICH
+    </h1>
+
+    <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+      Experience the vibrant flavors of authentic and premium grilled sandwiches,
+      brusting out the original spices and fresh ingredients
+    </p>
+  </div>
+</section>
+
+      {/* <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-red-800">
         <div className="absolute inset-0 bg-gradient-to-br from-chili/50 via-saffron/30 to-gray-900 z-10 opacity-80"></div>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-orange-500/20 to-transparent opacity-50"></div>
 
@@ -217,11 +248,11 @@ export default function Home() {
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Experience the vibrant flavors of authentic and premium grilled sandwiches, brusting out the original spices  and fresh ingredients 
-          </p>
+          </p>  
 
           
         </div>
-      </section>
+      </section> */}
 
       {/* Menu Section */}
       <section id="menu" className="py-20 bg-orange-50/50">
