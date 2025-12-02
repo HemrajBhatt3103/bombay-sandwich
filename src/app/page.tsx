@@ -180,6 +180,25 @@ const menuData = {
   ]
 };
 
+const categoryImages: { [key: string]: string } = {
+  "SANDWICH": "/sandwich.jpg",
+  "JAIN / SWAMINARAYAN": "/jain_sandwich.jpg",
+  "EXTRAS": "/extras.avif",
+  "GRILL SANDWICH": "/grill_sandwich.jpg",
+  "SPECIAL GRILL": "/special_grill.avif",
+  "3 LAYERS JUMBO GRILL SANDWICH": "/3_LAYERS_JUMBO_GRILL_SANDWICH.jpg",
+  "STUFF BUN PARATHA": "/stuff_bun_paratha.jpg",
+  "PIZZA": "/pizza.jpg",
+  "STUFF GRILL KHULCHA": "/stuff_grill_kulcha.jpg",
+  "BURGER": "/burger.jpg",
+  "FRENCH FRIES": "/french_fries.jpg",
+  "HOT DOG": "/hot_dog.jpg",
+  "FRANKIE": "/frankie.jpg",
+  "GARLIC BREAD": "/garlic_bread.avif",
+  "JUICE": "/juice.jpg",
+  "BEVERAGES": "/beverages.jpg"
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -273,21 +292,17 @@ export default function Home() {
               <div key={category} className="scroll-mt-20" id={`category-${category.toLowerCase().replace(/\s+/g, '-')}`}>
                 <div className="rounded-2xl overflow-hidden shadow-2xl border border-orange-100">
                   {/* Category Header with Image */}
-                  <div className="relative h-64 md:h-80 overflow-hidden bg-gradient-to-r from-orange-50 to-orange-100">
-                    {/* Category Image Placeholder */}
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="text-center">
-                        <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-orange-500/20 to-red-600/20 flex items-center justify-center">
-                          <Sparkles className="w-12 h-12 text-orange-500" />
-                        </div>
-                        <p className="text-lg font-medium text-gray-700">Category Image for</p>
-                        <p className="text-2xl font-bold text-gray-900">{category}</p>
-                        <p className="text-sm text-gray-500 mt-2">Replace with your image</p>
-                      </div>
-                    </div>
+                  <div className="relative h-64 md:h-80 overflow-hidden">
+                    <Image
+                      src={categoryImages[category] || '/hero_bg.jpg'} // Fallback image
+                      alt={`Image for ${category} category`}
+                      layout="fill"
+                      objectFit="cover"
+                      className="transition-transform duration-500 group-hover:scale-105"
+                    />
                     
                     {/* Category Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
                       <div className="absolute bottom-0 left-0 right-0 p-6">
                         <div className="flex items-center justify-between">
                           <div>
@@ -298,10 +313,7 @@ export default function Home() {
                               {items.length} delicious options
                             </p>
                           </div>
-                          <Badge className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-4 py-2">
-                            <Star className="w-4 h-4 mr-1" />
-                            Category
-                          </Badge>
+                          
                         </div>
                       </div>
                     </div>
