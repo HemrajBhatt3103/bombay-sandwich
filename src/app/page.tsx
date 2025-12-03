@@ -372,47 +372,113 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gradient-to-b from-orange-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <Badge className="mb-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white border-0 px-8 py-2">
-              <MapPin className="w-5 h-5 mr-2" />
-              Visit Our Restaurant
-            </Badge>
-            <h2 className="text-4xl font-bold mb-4 text-gray-900">
-              Find Us in Vadodara
-            </h2>
-            <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-              Experience the authentic taste at our conveniently located restaurant
+<section id="contact" className="py-20 bg-gradient-to-b from-orange-50 to-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <Badge className="mb-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white border-0 px-8 py-2">
+        <MapPin className="w-5 h-5 mr-2" />
+        Visit Our Restaurants
+      </Badge>
+      <h2 className="text-4xl font-bold mb-4 text-gray-900">
+        Find Us in Vadodara
+      </h2>
+      <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+        Experience the authentic taste at our conveniently located restaurants across Vadodara
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+      {/* Main Branch */}
+      <Card className="border-0 shadow-xl rounded-2xl bg-gradient-to-br from-white to-orange-50 p-8 hover:shadow-2xl transition-shadow duration-300">
+        <div className="text-center">
+          <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center shadow-lg">
+            <Sparkles className="w-10 h-10 text-white" />
+          </div>
+          <Badge className="mb-4 bg-gradient-to-r from-orange-500 to-red-600 text-white">
+            Main Branch
+          </Badge>
+          <h3 className="text-2xl font-bold mb-4 text-gray-900">Center Point</h3>
+          <div className="space-y-3 mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              SB - 1/2/33/34, Center Point<br />
+              R.C. Dutt Road, Alkapuri<br />
+              Vadodara, Gujarat
             </p>
           </div>
-
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-
-            {/* Location Details */}
-            <Card className="border-0 shadow-2xl rounded-2xl bg-gradient-to-br from-white to-orange-50 p-8">
-              <div className="text-center">
-                <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center shadow-lg">
-                  <MapPin className="w-10 h-10 text-white" />
-                </div>
-                <h3 className="text-3xl font-bold mb-6 text-gray-900">Our Location</h3>
-                <div className="space-y-4 mb-8">
-                  <p className="text-lg text-gray-700 leading-relaxed">
-                    <span className="font-semibold">SB - 1/2/33/34, Center Point</span><br />
-                    R.C. Dutt Road, Alkapuri<br />
-                    Vadodara, Gujarat
-                  </p>
-                  <div className="flex items-center justify-center gap-2 text-orange-600">
-                    <Clock className="w-5 h-5" />
-                    <span className="font-medium">Open: 10:00 AM - 11:00 PM</span>
-                  </div>
-                </div>
-                
-              </div>
-            </Card>
+          <div className="flex items-center justify-center gap-2 text-orange-600">
+            <Clock className="w-5 h-5" />
+            <span className="font-medium">10:00 AM - 11:00 PM</span>
           </div>
         </div>
-      </section>
+      </Card>
+
+      {/* Branch 1 */}
+      <Card className="border-0 shadow-xl rounded-2xl bg-gradient-to-br from-white to-orange-50 p-8 hover:shadow-2xl transition-shadow duration-300">
+        <div className="text-center">
+          <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center shadow-lg">
+            <MapPin className="w-10 h-10 text-white" />
+          </div>
+          <h3 className="text-2xl font-bold mb-4 text-gray-900">Devraj Avenue</h3>
+          <div className="space-y-3 mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              GF-07, Devraj Avenue<br />
+              Near Ward No. 11, Opp. Uro Care Hospital<br />
+              New Court Road, Vadodara - 390021
+            </p>
+          </div>
+          <div className="flex items-center justify-center gap-2 text-orange-600">
+            <Clock className="w-5 h-5" />
+            <span className="font-medium">10:00 AM - 11:00 PM</span>
+          </div>
+        </div>
+      </Card>
+
+      {/* Branch 2 */}
+      <Card className="border-0 shadow-xl rounded-2xl bg-gradient-to-br from-white to-orange-50 p-8 hover:shadow-2xl transition-shadow duration-300">
+        <div className="text-center">
+          <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center shadow-lg">
+            <MapPin className="w-10 h-10 text-white" />
+          </div>
+          <h3 className="text-2xl font-bold mb-4 text-gray-900">Vraj Complex</h3>
+          <div className="space-y-3 mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              Shop No. GF-7, Vraj Complex<br />
+              Opp. Ghelani N'pura Village<br />
+              Vadodara - 390002
+            </p>
+          </div>
+          <div className="flex items-center justify-center gap-2 text-orange-600">
+            <Clock className="w-5 h-5" />
+            <span className="font-medium">10:00 AM - 11:00 PM</span>
+          </div>
+        </div>
+      </Card>
+
+      {/* Branch 3 */}
+      <Card className="border-0 shadow-xl rounded-2xl bg-gradient-to-br from-white to-orange-50 p-8 hover:shadow-2xl transition-shadow duration-300">
+        <div className="text-center">
+          <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center shadow-lg">
+            <MapPin className="w-10 h-10 text-white" />
+          </div>
+          <h3 className="text-2xl font-bold mb-4 text-gray-900">Lotus Aura-2</h3>
+          <div className="space-y-3 mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              Shop No. GF/21, Lotus Aura-2<br />
+              Opp. Lilleria Party Plot<br />
+              Sama-Savli Main Road, Vadodara - 390008
+            </p>
+          </div>
+          <div className="flex items-center justify-center gap-2 text-orange-600">
+            <Clock className="w-5 h-5" />
+            <span className="font-medium">10:00 AM - 11:00 PM</span>
+          </div>
+        </div>
+      </Card>
+    </div>
+
+    
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="bg-gradient-to-b from-gray-900 to-black text-white py-16">
