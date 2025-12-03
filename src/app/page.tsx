@@ -175,8 +175,8 @@ const menuData = {
   ],
 
   "BEVERAGES": [
-    { name: "Coldrinks", price: "₹40", popular: true },
-    { name: "Water", price: "₹20" }
+    { name: "Coldrinks", popular: true },
+    { name: "Water"}
   ]
 };
 
@@ -249,7 +249,7 @@ export default function Home() {
           </h1>
 
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Experience the vibrant flavors of authentic Mumbai street food with premium grilled sandwiches,
+            Experience the vibrant flavors of authentic street food with premium grilled sandwiches,
             bursting with original spices and fresh ingredients
           </p>
 
@@ -282,7 +282,7 @@ export default function Home() {
               Taste the Bombay Magic
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-              Each category showcases our signature specialties, carefully crafted with authentic Mumbai flavors
+              Each category showcases our signature specialties, carefully crafted with authentic street food flavors
             </p>
           </div>
 
@@ -433,11 +433,11 @@ export default function Home() {
                   <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
                     Bites Bombay Sandwich
                   </h3>
-                  <p className="text-gray-400 text-sm mt-1">Since 1991 • Taste of Mumbai</p>
+                  <p className="text-gray-400 text-sm mt-1">Since 1991 • Taste of Street Food</p>
                 </div>
               </div>
               <p className="text-gray-400 leading-relaxed">
-                Bringing authentic Mumbai street food flavors to Vadodara with quality ingredients,
+                Bringing authentic street food flavors to Vadodara with quality ingredients,
                 traditional recipes, and modern presentation. A family favorite since three decades.
               </p>
             </div>
@@ -474,7 +474,7 @@ export default function Home() {
               Since 1991  Bites Bombay Sandwich. All rights reserved.
             </p>
             <p className="text-gray-500 mb-6">
-              Made with ❤️ in Mumbai • Served with pride in Vadodara
+              Made with ❤️ • Served with pride in Vadodara
             </p>
             <p className="text-gray-600 text-sm">
               Digital Menu crafted by{' '}
