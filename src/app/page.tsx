@@ -31,72 +31,74 @@ const menuData = {
 
   "EXTRAS": [
     { name: "Extra Wafer", price: "₹50" },
-    { name: "Cheese Wafer", price: "₹170", popular: true }
+    { name: "Cheese Wafer", price: "₹170", popular: true },
+    { name: "Brown Bread Extra", price: "₹20" }
   ],
 
   "GRILL SANDWICH": [
-    { name: "Bombay Toasted Sandwich", price: "₹120", popular: true },
-    { name: "Samosa Veg Grill Sandwich", price: "₹140" },
-    { name: "Samosa Veg Cheese Grill Sandwich", price: "₹160" },
-    { name: "Chocolate Grill Sandwich", price: "₹100" },
-    { name: "Plain Cheese Grill Sandwich", price: "₹90" },
-    { name: "Cheese Chain Grill", price: "₹110" },
-    { name: "Cheese Jam Grill", price: "₹100" },
-    { name: "Bread Butter Toasted", price: "₹60" },
-    { name: "Chatni Butter Toasted", price: "₹70" },
-    { name: "Jam Butter Toasted", price: "₹70" }
+    { name: "Grill Sandwich", price: "₹130", popular: true },
+    { name: "Bombay Toasted Sandwich", price: "₹130", popular: true },
+    { name: "Samosa Veg Grill Sandwich", price: "₹130" },
+    { name: "Samosa Veg Cheese Grill Sandwich", price: "₹130" },
+    { name: "Chocolate Grill Sandwich", price: "₹170" },
+    { name: "Plain Cheese Grill Sandwich", price: "₹150" },
+    { name: "Cheese Chatni Grill", price: "₹150" },
+    { name: "Cheese Jam Grill", price: "₹150" },
+    { name: "Bread Butter Toasted", price: "₹110" },
+    { name: "Chatni Butter Toasted", price: "₹110" },
+    { name: "Jam Butter Toasted", price: "₹110" }
   ],
 
   "SPECIAL GRILL": [
-    { name: "Tandoori Paneer Grill (Onion, Capsicum, Cheese, Parcer)", price: "₹180", popular: true },
+    { name: "Tandoori Paneer Grill (Onion, Capsicum, Cheese, Parcer)", price: "₹170", popular: true },
     { name: "Chilli Cheese Grill (Onion, Capsicum, Cheese, Mayo)", price: "₹160" },
-    { name: "Mayogrill (Cabbage, Tomato, Cheese)", price: "₹140" },
-    { name: "Tangi Cheese Tomato Grill (Onion, Capsicum, Tomato, Cheese)", price: "₹150" },
-    { name: "Cheese Chili Corn (Mayo, Cheese, Corn)", price: "₹150" },
-    { name: "Jalapeno Corn (Jalapeno, Corn, Mayo, Cheese)", price: "₹160", popular: true },
-    { name: "Club Bombay Sandwich (3 Layer) (Cucumber, Tomato, Potato, Cheese, Mayo)", price: "₹180" },
-    { name: "Allo Mutter", price: "₹130" },
-    { name: "Kolhapuri Grill", price: "₹140" },
-    { name: "Paneer Masala Grill Sandwich", price: "₹160" },
-    { name: "Paneer Pudina Grill", price: "₹150" },
-    { name: "Mushroom Mayo Grill", price: "₹140" },
-    { name: "Paneer Mushroom Mayo Grill (8 Layers)", price: "₹200", popular: true }
+    { name: "Mayogrill (Cabbage, Tomato, Cheese)", price: "₹160" },
+    { name: "Tangi Cheese Tomato Grill (Onion, Capsicum, Tomato, Cheese)", price: "₹160" },
+    { name: "Cheese Chili Corn (Mayo, Cheese, Corn)", price: "₹170" },
+    { name: "Jalapeno Corn (Jalapeno, Corn, Mayo, Cheese)", price: "₹190", popular: true },
+    { name: "Club Bombay Sandwich (3 Layer) (Cucumber, Tomato, Potato, Cheese, Mayo)", price: "₹200" },
+    { name: "Allo Mutter", price: "₹150" },
+    { name: "Kolhapuri Grill", price: "₹180" },
+    { name: "Paneer Masala Grill Sandwich", price: "₹180" },
+    { name: "Paneer Pudina Grill", price: "₹170" },
+    { name: "Mushroom Mayo Grill", price: "₹200" },
+    { name: "Paneer Mushroom Mayo Grill (8 Layers)", price: "₹250", popular: true }
   ],
 
   "3 LAYERS JUMBO GRILL SANDWICH": [
-    { name: "Tandoori Paneer Grill", price: "₹220", popular: true },
-    { name: "Kolapuri Cheese Grill", price: "₹210" },
-    { name: "Chili Cheese Grill", price: "₹190" },
-    { name: "Special Mayo Grill", price: "₹180" },
-    { name: "Jalapeno Corn Grill", price: "₹200" },
-    { name: "Club Bombay Sandwich", price: "₹210" },
-    { name: "Aloo Mutter", price: "₹170" },
-    { name: "Paneer Mashroom Thy Grill", price: "₹230" },
-    { name: "Bites Special", price: "₹250", popular: true }
+    { name: "Tandoori Paneer Grill", price: "₹300", popular: true },
+    { name: "Kolapuri Cheese Grill", price: "₹250" },
+    { name: "Chili Cheese Grill", price: "₹250" },
+    { name: "Special Mayo Grill", price: "₹250" },
+    { name: "Jalapeno Corn Grill", price: "₹250" },
+    { name: "Club Bombay Sandwich", price: "₹300" },
+    { name: "Aloo Mutter", price: "₹230" },
+    { name: "Paneer Mashroom Thy Grill", price: "₹250" },
+    { name: "Bites Special", price: "₹350", popular: true }
   ],
 
   "STUFF BUN PARATHA": [
-    { name: "Veg Cheese Paratha", price: "₹120", popular: true },
-    { name: "Cheese Chatni Paratha", price: "₹110" },
-    { name: "Chatpata Paratha", price: "₹100" },
-    { name: "Cheese Corn Paratha", price: "₹130" },
-    { name: "Mashroom Paratha", price: "₹120" },
-    { name: "Tandoori Paneer Paratha", price: "₹150" },
-    { name: "Chocolate Cheese Paratha", price: "₹110" },
-    { name: "Plain Cheese Paratha", price: "₹90" },
-    { name: "Bites Bombay Special Paratha", price: "₹180" }
+    { name: "Veg Cheese Paratha", price: "₹150", popular: true },
+    { name: "Cheese Chatni Paratha", price: "₹150" },
+    { name: "Chatpata Paratha", price: "₹160" },
+    { name: "Cheese Corn Paratha", price: "₹160" },
+    { name: "Mashroom Paratha", price: "₹150" },
+    { name: "Tandoori Paneer Paratha", price: "₹180" },
+    { name: "Chocolate Cheese Paratha", price: "₹150" },
+    { name: "Plain Cheese Paratha", price: "₹180" },
+    { name: "Bites Bombay Special Paratha", price: "₹150" }
   ],
 
   "PIZZA": [
-    { name: "Veg Cheese Pizza", price: "₹150", popular: true },
-    { name: "Marchereita Pizza", price: "₹200" },
-    { name: "Hot & Spicy Marcherita Pizza", price: "₹200" },
-    { name: "Italian Cheese Pizza", price: "₹220" },
-    { name: "Mexican Cheese Pizza", price: "₹220" },
-    { name: "Tandoori Paneer Pizza", price: "₹230", popular: true },
-    { name: "Paneer Chatpata Pizza", price: "₹230" },
-    { name: "Cheese and Corn Pizza", price: "₹200" },
-    { name: "Bites Bombay Special Pizza", price: "₹250" }
+    { name: "Veg Cheese Pizza", price6inch: "₹150", price9inch: "₹200", popular: true },
+    { name: "Marchereita Pizza", price6inch: "₹200", price9inch: "₹250" },
+    { name: "Hot & Spicy Marcherita Pizza", price6inch: "₹200", price9inch: "₹250" },
+    { name: "Italian Cheese Pizza", price6inch: "₹220", price9inch: "₹270" },
+    { name: "Mexican Cheese Pizza", price6inch: "₹220", price9inch: "₹270" },
+    { name: "Tandoori Paneer Pizza", price6inch: "₹230", price9inch: "₹280", popular: true },
+    { name: "Paneer Chatpata Pizza", price6inch: "₹230", price9inch: "₹280" },
+    { name: "Cheese and Corn Pizza", price6inch: "₹200", price9inch: "₹230" },
+    { name: "Bites Bombay Special Pizza", price6inch: "₹250", price9inch: "₹300" }
   ],
 
   "STUFF GRILL KHULCHA": [
@@ -121,11 +123,11 @@ const menuData = {
   ],
 
   "FRENCH FRIES": [
-    { name: "French Fries", price: "₹70", popular: true },
-    { name: "Mayo French Fries", price: "₹90" },
-    { name: "Cheese Mayo French Fries", price: "₹110" },
-    { name: "Cheese French Fries", price: "₹100" },
-    { name: "Perry Perry French Fries", price: "₹100" }
+    { name: "French Fries", price: "₹130", popular: true },
+    { name: "Mayo French Fries", price: "₹150" },
+    { name: "Cheese Mayo French Fries", price: "₹180" },
+    { name: "Cheese French Fries", price: "₹180" },
+    { name: "Perry Perry French Fries", price: "₹180" }
   ],
 
   "HOT DOG": [
@@ -163,15 +165,15 @@ const menuData = {
   ],
 
   "JUICE": [
-    { name: "Orange", price: "₹60", popular: true },
-    { name: "Fresh Sweet Lime", price: "₹60" },
-    { name: "Pineapple", price: "₹70" },
-    { name: "Watermelon", price: "₹70" },
-    { name: "Ganga-Jamuna", price: "₹80" },
-    { name: "Mix Fruit", price: "₹90" },
-    { name: "Apple", price: "₹80" },
-    { name: "Black Grapes", price: "₹80" },
-    { name: "Guava Juice", price: "₹70" }
+    { name: "Orange", price: "₹110", popular: true },
+    { name: "Fresh Sweet Lime", price: "₹110" },
+    { name: "Pineapple", price: "₹110" },
+    { name: "Watermelon", price: "₹110" },
+    { name: "Ganga-Jamuna", price: "₹130" },
+    { name: "Mix Fruit", price: "₹150" },
+    { name: "Apple", price: "₹140" },
+    { name: "Black Grapes", price: "₹120" },
+    { name: "Guava Juice", price: "₹150" }
   ],
 
   "BEVERAGES": [
@@ -346,10 +348,26 @@ export default function Home() {
                             
                             <div className="flex items-center justify-between pt-3 border-t border-orange-100">
                               <div className="relative">
-                                <span className="text-2xl font-bold text-gray-900">
-                                  {item.price}
-                                </span>
-                                <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-orange-400 to-transparent group-hover:from-orange-500 group-hover:to-red-500 transition-all duration-300"></div>
+                                {/* Special display for Pizza with two prices */}
+                                {category === "PIZZA" ? (
+                                  <div className="space-y-1">
+                                    <div className="flex items-center gap-2">
+                                      <span className="text-base font-bold text-gray-900">6": {item.price6inch}</span>
+                                      <span className="text-xs text-gray-500">|</span>
+                                      <span className="text-base font-bold text-gray-900">9": {item.price9inch}</span>
+                                    </div>
+                                    <div className="text-xs text-gray-500 font-medium">
+                                      Available in two sizes
+                                    </div>
+                                  </div>
+                                ) : (
+                                  <>
+                                    <span className="text-2xl font-bold text-gray-900">
+                                      {item.price || 'Market Price'}
+                                    </span>
+                                    <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-orange-400 to-transparent group-hover:from-orange-500 group-hover:to-red-500 transition-all duration-300"></div>
+                                  </>
+                                )}
                               </div>
                               
                               
@@ -561,3 +579,4 @@ export default function Home() {
     </div>
   );
 }
+
