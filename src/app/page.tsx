@@ -62,7 +62,7 @@ const menuData = {
     { name: "Paneer Masala Grill Sandwich", price: "₹180" },
     { name: "Paneer Pudina Grill", price: "₹170" },
     { name: "Mushroom Mayo Grill", price: "₹200" },
-    { name: "Paneer Mushroom Mayo Grill (8 Layers)", price: "₹250", popular: true }
+    { name: "Paneer Mushroom Mayo Grill (3 Layers)", price: "₹250", popular: true }
   ],
 
   "3 LAYERS JUMBO GRILL SANDWICH": [
